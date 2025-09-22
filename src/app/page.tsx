@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { HomePageHeroParagraph, AboutSectionParagraph, ServiceSectionParagraph, TestimonialParagraph } from "@/components/Paragraphs";
+import { HomePageHeroParagraph, AboutSectionParagraph, ServiceSectionParagraph } from "@/components/Paragraphs";
 
 export default function HomePage() {
   return (
