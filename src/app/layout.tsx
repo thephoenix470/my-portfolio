@@ -7,10 +7,10 @@ import BackToTop from "@/components/BackToTop";
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900">
         <Provider>
           <Navbar />
-          {children}
+          <main className="flex-grow">{children}</main>
           <BackToTop />
           <Footer />
         </Provider>
