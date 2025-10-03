@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { MissionParagraph, StoryParagraph } from "@/components/Paragraphs";
+import { FounderParagraph, MissionParagraph, StoryParagraph } from "@/components/Paragraphs";
 
 export default function AboutPage() {
   return (
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <section id="mission" className="py-16 dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-6 space-y-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative w-full h-[300px] md:h-[400px]">
+            <div className="relative w-full h-[250px] md:h-[350px]">
               <Image src='/images/hotel-webpage.jpg' alt="hotel webpage" fill className="object-cover rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw" priority />
             </div>
             <div className="text-left">
@@ -39,7 +39,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section id="story" className="bg-gray-100 dark:bg-gray-800 py-16">
+      {/* <section id="story" className="bg-gray-100 dark:bg-gray-800 py-16">
         <div className="max-w-6xl mx-auto px-6 space-y-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1 text-left">
@@ -59,7 +59,34 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative w-full h-[300px] md:h-[400px] order-1 md:order-2">
-              <Image src='/images/hotel-webpage.jpg' alt="" fill className="object-cover rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw"/>
+              <Image src='/images/founder.jpg' alt="founder" fill className="object-contain rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw"/>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* Our Founder */}
+      <section id="founder" className="bg-gray-100 dark:bg-gray-800 py-16">
+        <div className="max-w-6xl mx-auto px-6 space-y-16">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="order-2 md:order-1 text-left">
+              <h2 className="text-2xl md:text-3xl font-bold text-blue-900 dark:text-white">
+                {FounderParagraph.title}
+              </h2>
+              <div className="mt-4 space-y-4 text-lg text-gray-700 dark:text-white">
+                <p>
+                  {FounderParagraph.paragraph.at(0)}
+                </p>
+                <p>
+                  {FounderParagraph.paragraph.at(1)}
+                </p>
+                <p>
+                  {FounderParagraph.paragraph.at(2)}
+                </p>
+              </div>
+            </div>
+            <div className="relative w-full h-[250px] md:h-[350px] order-1 md:order-2">
+              <Image src='/images/founder.png' alt="founder" fill className="object-content rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw"/>
             </div>
           </div>
         </div>

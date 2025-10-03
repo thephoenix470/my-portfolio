@@ -58,6 +58,15 @@ export const StoryParagraph = {
         "Our mission is simple: make your life easier by solving operational and management challenges without breaking the bank."]
 }
 
+export const FounderParagraph = {
+    title: "Our Founder",
+    paragraph:["Meet Khalil Azhari, the Founder of Luma Core.", 
+        
+        "With over 3 years of experience in building inovative solutions in Web Development and Power Platform, Khalil now leads Luma Core with a focus on delivering impactful results for clients.", 
+        
+        "“I aim to create solutions that push the boundaries of what’s possible, turning bold visions into real-world results and integrating smarter solutions using low-code tools.”"]
+}
+
 export const ServicesParagraph = [
     {
         title: "Low-Code Solutions",
