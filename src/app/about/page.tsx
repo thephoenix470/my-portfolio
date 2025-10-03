@@ -76,8 +76,6 @@ export default function AboutPage() {
               <div className="mt-4 space-y-4 text-lg text-gray-700 dark:text-white">
                 <p>
                   {FounderParagraph.paragraph.at(0)}
-                </p>
-                <p>
                   {FounderParagraph.paragraph.at(1)}
                 </p>
                 <p>
@@ -86,7 +84,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative w-full h-[250px] md:h-[350px] order-1 md:order-2">
-              <Image src='/images/founder.png' alt="founder" fill className="object-content rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw"/>
+              <Image src='/images/founder.png' alt="founder" fill className="object-content rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
           </div>
         </div>
