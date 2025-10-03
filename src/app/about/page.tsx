@@ -39,7 +39,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section id="story" className="bg-gray-100 dark:bg-gray-800 py-16">
+      {/* <section id="story" className="bg-gray-100 dark:bg-gray-800 py-16">
         <div className="max-w-6xl mx-auto px-6 space-y-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1 text-left">
@@ -63,10 +63,10 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Founder */}
-      {/* <section id="founder" className="bg-gray-100 dark:bg-gray-800 py-16">
+      <section id="founder" className="bg-gray-100 dark:bg-gray-800 py-16">
         <div className="max-w-6xl mx-auto px-6 space-y-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1 text-left">
@@ -88,7 +88,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
