@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import ContactForm from "@/components/ContactForm"
 import { contactOptions, faqs } from "@/components/Paragraphs";
 
 export default function ContactPage() {
@@ -95,7 +94,6 @@ export default function ContactPage() {
                     </div>
                 </div> */}
             </div>
-            <ContactForm />
         </section>
     )
 }
