@@ -87,10 +87,10 @@ export const ServicesParagraph = [
         image: "/images/hotel-webpage.jpg",
     },
     {
-        title: "System Integration",
+        title: "Connected Solutions",
         description:
             "Connect your platforms and tools to ensure smooth data flow and seamless collaboration.",
-        image: "/images/system-integration.jpg",
+        image: "/images/integration.png",
     },
     {
         title: "Application Care",
