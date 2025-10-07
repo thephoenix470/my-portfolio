@@ -104,14 +104,14 @@ export const contactOptions = [
   {
     title: "Request a project",
     description: "Speak to our friendly team.",
-    value: "r@luma-core.net",
-    href: "mailto:r@luma-core.net"
+    value: "contact@luma-core.net",
+    href: "mailto:contact@luma-core.net"
   },
   {
     title: "Chat for consult",
     description: "Ask us for the best recommendation.",
-    value: "c@luma-core.net",
-    href: "mailto:c@luma-core.net"
+    value: "kazhari@luma-core.net",
+    href: "mailto:kazhari@luma-core.net"
   },
   {
     title: "Visit us",

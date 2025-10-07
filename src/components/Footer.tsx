@@ -64,20 +64,20 @@ export default function Footer() {
             <ul className="space-y-1 text-sm">
               <li>
                 <Link
-                  href="/contact?subject=project"
+                  href="/contact"
                   className="text-black-900 dark:text-white hover:text-blue-900 hover:dark:text-white"
                 >
-                  Request a project
+                  Submit a request
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/contact?subject=consult"
                   className="text-black-900 dark:text-white hover:text-blue-900 hover:dark:text-white"
                 >
                   Request a consult
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function Footer() {
 
             {/* Email */}
             <Link
-              href="mailto:contact@yourcompany.com"
+              href="mailto:contact@luma-core.net"
               className="text-gray-600 dark:text-gray-300 hover:text-red-500"
             >
               <FaEnvelope />
