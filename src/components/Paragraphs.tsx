@@ -1,3 +1,5 @@
+import { title } from "process"
+
 export const HomePageHeroParagraph = {
     title: "Transforming Challenges into Opportunities",
     paragraph: "Tailored solutions that drive growth and innovation.",
@@ -10,17 +12,21 @@ export const AboutSectionParagraph = {
 }
 
 export const ServiceSectionParagraph = [
+    // {
+    //     title: "WordPress Development",
+    //     paragraph: "Custom WordPress development and modification."
+    // },
     {
-        title: "WordPress Development",
-        paragraph: "Custom WordPress development and modification."
+        title: "Low Code Solutions",
+        paragraph: "Accelerate development with smart low-code tools that adapt to your business processes."
     },
     {
         title: "Web Development",
         paragraph: "Create your website backed with a full-stack experience."
     },
     {
-        title: "Microsoft Consulting",
-        paragraph: "Find the best approach for your business with Microsoft Power Platform tools."
+        title: "Application Care",
+        paragraph: "Keep your digital solutions secure, up to date, and performing at their best."
     }
 ]
 
@@ -81,16 +87,16 @@ export const ServicesParagraph = [
         image: "/images/hotel-webpage.jpg",
     },
     {
-        title: "WordPress Development",
+        title: "System Integration",
         description:
-            "Design and develop dynamic, fully customizable WordPress business websites and portfolios.",
-        image: "/images/wordpress.jpg",
+            "Connect your platforms and tools to ensure smooth data flow and seamless collaboration.",
+        image: "/images/system-integration.jpg",
     },
     {
-        title: "Power Platform Consulting",
+        title: "Application Care",
         description:
-            "Tailored strategies to transform your business digitally and drive growth efficiently.",
-        image: "/images/power-platform-consulting.jpg",
+            "Enhance speed, security, and reliability to keep your digital solutions performing at their best.",
+        image: "/images/app-maintenance.jpg",
     }
 ]
 
