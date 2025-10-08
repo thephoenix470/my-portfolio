@@ -49,9 +49,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`w-full bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-transform duration-300 ${
-        showNavbar ? "translate-y-0" : "-translate-y-full"
-      }`}
+      className={`w-full bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"
+        }`}
     >
       <div className="container mx-auto px-4 md:px-8 h-20 flex justify-between items-center">
         {/* Mobile Hamburger */}
@@ -85,10 +84,9 @@ export default function Navbar() {
                 {/* Left line */}
                 <span
                   className={`inline-block h-5 w-0.5 mr-3 rounded transition-transform duration-300 origin-top
-                    ${
-                      isActive
-                        ? "scale-y-100 bg-red-600 dark:bg-red-400"
-                        : "scale-y-100 bg-blue-900/20 dark:bg-gray-100/20"
+                    ${isActive
+                      ? "scale-y-100 bg-red-600 dark:bg-red-400"
+                      : "scale-y-100 bg-blue-900/20 dark:bg-gray-100/20"
                     }
                   `}
                 ></span>
@@ -98,11 +96,10 @@ export default function Navbar() {
 
                 {/* Label */}
                 <span
-                  className={`text-blue-900 dark:text-gray-200 transition-colors duration-300 ${
-                    isActive
+                  className={`text-blue-900 dark:text-gray-200 transition-colors duration-300 ${isActive
                       ? "text-blue-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400"
                       : "group-hover:text-red-600 dark:group-hover:text-red-400"
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </span>
@@ -115,16 +112,15 @@ export default function Navbar() {
       {/* Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40"
+          className="fixed inset-0 h-screen w-screen bg-black/30 backdrop-blur-sm z-40"
           onClick={() => setIsOpen(false)}
         />
       )}
 
       {/* Mobile Side Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white dark:bg-gray-900 shadow-lg z-50 transform transition-transform duration-300 ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`fixed top-0 left-0 w-64 h-screen bg-white dark:bg-gray-900 shadow-lg z-50 transform transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-lg">
