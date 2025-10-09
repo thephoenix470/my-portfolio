@@ -93,7 +93,7 @@ export default function Footer() {
               href="/"
               className="font-semibold text-blue-900 dark:text-white"
             >
-              TrevanaCore
+              TrevaCore
             </Link>
             . All rights reserved.
           </div>
@@ -112,7 +112,7 @@ export default function Footer() {
 
             {/* Email */}
             <Link
-              href="mailto:contact@trevanacore.com"
+              href="mailto:contact@trevacore.com"
               className="text-gray-600 dark:text-gray-300 hover:text-red-500"
             >
               <FaEnvelope />

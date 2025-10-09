@@ -8,7 +8,7 @@ export const HomePageHeroParagraph = {
 
 export const AboutSectionParagraph = {
     title: "Who We Are",
-    paragraph: "At TrevanaCore, we deliver innovative and reliable solutions that empower businesses to thrive. We provide web development services, and consulting tailored to your unique needs."
+    paragraph: "At TrevaCore, we deliver innovative and reliable solutions that empower businesses to thrive. We provide web development services, and consulting tailored to your unique needs."
 }
 
 export const ServiceSectionParagraph = [
@@ -32,7 +32,7 @@ export const ServiceSectionParagraph = [
 
 export const TestimonialParagraph = [
     {
-        text: `"TrevanaCore helped our company double revenue in under a year."`,
+        text: `"TrevaCore helped our company double revenue in under a year."`,
         name: "- Jane Doe, CEO of Acme Corp"
     },
     {
@@ -59,16 +59,16 @@ export const StoryParagraph = {
     title: "Our Story",
     paragraph: ["Most solution providers focus only on web development, while few offer low-code or “smart” solutions—often seen as costly to build and maintain.",
 
-        "In 2025, our founder launched TrevanaCore to change that. We deliver both web development and smart solutions that are fast to deploy, easy to maintain, and cost-effective.",
+        "In 2025, our founder launched TrevaCore to change that. We deliver both web development and smart solutions that are fast to deploy, easy to maintain, and cost-effective.",
 
         "Our mission is simple: make your life easier by solving operational and management challenges without breaking the bank."]
 }
 
 export const FounderParagraph = {
     title: "Our Founder",
-    paragraph:["Meet Khalil Azhari, the Founder of TrevanaCore. ", 
+    paragraph:["Meet Khalil Azhari, the Founder of TrevaCore. ", 
 
-        "With over 3 years of experience in building innovative solutions in Web Development and Power Platform, Khalil now leads TrevanaCore with a focus on delivering impactful results for clients. ", 
+        "With over 3 years of experience in building innovative solutions in Web Development and Power Platform, Khalil now leads TrevaCore with a focus on delivering impactful results for clients. ", 
         
         "“I aim to create solutions that push the boundaries of what’s possible, turning bold visions into real-world results and integrating smarter solutions using low-code tools.”"]
 }
@@ -104,14 +104,14 @@ export const contactOptions = [
   {
     title: "Request a project",
     description: "Speak to our friendly team.",
-    value: "contact@trevanacore.com",
-    href: "mailto:contact@trevanacore.com"
+    value: "contact@trevacore.com",
+    href: "mailto:contact@trevacore.com"
   },
   {
     title: "Chat for consult",
     description: "Ask us for the best recommendation.",
-    value: "kazhari@trevanacore.com",
-    href: "mailto:kazhari@trevanacore.com"
+    value: "kazhari@trevacore.com",
+    href: "mailto:kazhari@trevacore.com"
   },
   {
     title: "Visit us",

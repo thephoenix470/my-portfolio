@@ -82,10 +82,10 @@ export default function HomePage() {
       <section className="py-10 sm:py-12 md:py-16 text-center dark:text-white px-4 sm:px-6">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-blue-900 dark:text-white">Ready to Elevate Your Business?</h2>
         <Link
-          href="/contact?subject=consult"
+          href="/contact"
           className="inline-block bg-white text-blue-900 shadow-md font-semibold py-2 sm:py-3 md:py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-100 transition"
         >
-          Schedule a Consultation
+          Chat with us
         </Link>
       </section>
 
