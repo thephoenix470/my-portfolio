@@ -64,7 +64,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="mx-auto md:mx-0">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-xl md:text-2xl transition-colors">
-            LumaCore
+            TrevanaCore
           </span>
         </Link>
 
@@ -124,7 +124,7 @@ export default function Navbar() {
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-lg">
-            LumaCore
+            TrevanaCore
           </span>
           <button
             className="text-blue-900 dark:text-gray-200"
