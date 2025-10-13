@@ -102,7 +102,7 @@ export const ServicesParagraph = [
 
 export const contactOptions = [
   {
-    title: "Request a project",
+    title: "Let's connect",
     description: "Speak to our friendly team.",
     value: "contact@trevacore.com",
     href: "mailto:contact@trevacore.com"
