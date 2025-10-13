@@ -102,17 +102,17 @@ export const ServicesParagraph = [
 
 export const contactOptions = [
   {
-    title: "Request a project",
+    title: "Let us connect",
     description: "Speak to our friendly team.",
     value: "contact@trevacore.com",
     href: "mailto:contact@trevacore.com"
   },
-  {
-    title: "Chat for consult",
-    description: "Ask us for the best recommendation.",
-    value: "kazhari@trevacore.com",
-    href: "mailto:kazhari@trevacore.com"
-  },
+//   {
+//     title: "Chat for consult",
+//     description: "Ask us for the best recommendation.",
+//     value: "kazhari@trevacore.com",
+//     href: "mailto:kazhari@trevacore.com"
+//   },
   {
     title: "Visit us",
     description: "Visit our office headquarters.",
