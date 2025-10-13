@@ -23,7 +23,7 @@ export default function ContactPage() {
                 </p>
 
                 {/* Contact Cards (mapped) */}
-                <div className="mx-auto max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
+                <div className="max-w-[720px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
                     {contactOptions.map((option) => (
                         <div
                             key={option.title}
