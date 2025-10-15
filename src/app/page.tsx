@@ -3,11 +3,6 @@
 import Link from "next/link";
 import { HomePageHeroParagraph, AboutSectionParagraph, ServiceSectionParagraph } from "@/components/Paragraphs";
 
-export const metadata = {
-  title: "Home | LumaCore",
-  description: "LumaCore - Innovative web solutions and low-code integrations.",
-};
-
 export default function HomePage() {
   return (
     <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 overflow-x-hidden">
