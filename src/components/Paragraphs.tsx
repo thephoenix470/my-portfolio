@@ -1,5 +1,3 @@
-import { title } from "process"
-
 export const HomePageHeroParagraph = {
     title: "Transforming Challenges into Opportunities",
     paragraph: "Tailored solutions that drive growth and innovation.",
