@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 
 export const metadata = {
-  title: "TrevaCore | ",
+  title: "Innovative Solutions - TrevaCore",
   description: "TrevaCore - Innovative web solutions, low-code integration, and application care.",
   viewport: "width=device-width, initial-scale=1.0",
   icons: {
