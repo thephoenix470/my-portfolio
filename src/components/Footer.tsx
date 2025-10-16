@@ -67,7 +67,7 @@ export default function Footer() {
                   href="/contact"
                   className="text-black-900 dark:text-white hover:text-blue-900 hover:dark:text-white"
                 >
-                  Let's connect
+                  Let’s connect
                 </Link>
               </li>
               {/* <li>
