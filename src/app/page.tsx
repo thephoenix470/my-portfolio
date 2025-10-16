@@ -7,7 +7,7 @@ import SEO from "@/components/SEO";
 export default function HomePage() {
   return (
     <>
-      <SEO title="TrevaCore | " description="TrevaCore - Innovative web solutions, low-code integration, and application care." />
+      <SEO title="Innovative Solutions - TrevaCore" description="TrevaCore - Innovative web solutions, low-code integration, and application care." />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 overflow-x-hidden">
 
         {/* ===========================
