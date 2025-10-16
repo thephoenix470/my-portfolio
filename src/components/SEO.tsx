@@ -6,8 +6,8 @@ interface SEOProps {
 }
 
 export default function SEO({ title, description }: SEOProps) {
-  const siteName = "LumaCore";
-  const defaultDescription = "LumaCore - Innovative web solutions, low-code integration, and application care.";
+  const siteName = "TrevaCore";
+  const defaultDescription = "TrevaCore - Innovative web solutions, low-code integration, and application care.";
 
   return (
     <>

@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 
 export const metadata = {
-  title: "LumaCore Portfolio",
-  description: "LumaCore - Innovative web solutions, low-code integration, and application care.",
+  title: "TrevaCore | ",
+  description: "TrevaCore - Innovative web solutions, low-code integration, and application care.",
   viewport: "width=device-width, initial-scale=1.0",
   icons: {
     icon: "/favicon.ico",

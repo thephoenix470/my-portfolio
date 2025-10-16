@@ -14,7 +14,7 @@ export default function ContactPage() {
 
     return (
         <div>
-            <SEO title="Contact Us" description="Get in touch with LumaCore. Chat, call, or visit our office to discuss your project." />
+            <SEO title="Contact Us" description="Get in touch with TrevaCore. Chat, call, or visit our office to discuss your project." />
 
             <section className="bg-gray-50 dark:bg-gray-800 min-h-screen">
                 <div className="max-w-5xl mx-auto px-6 py-16">

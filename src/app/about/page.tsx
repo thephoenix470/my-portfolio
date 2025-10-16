@@ -8,7 +8,7 @@ import SEO from "@/components/SEO";
 export default function AboutPage() {
   return (
     <div>
-      <SEO title="About Us" description="Learn more about LumaCore, our mission, and how we deliver innovative web solutions." />
+      <SEO title="About Us" description="Learn more about TrevaCore, our mission, and how we deliver innovative web solutions." />
 
       {/* About Us */}
       {/* <section className="relative bg-gray-100 dark:bg-gray-800 text-blue-900 dark:text-white py-12 sm:py-16 md:py-20 bg-cover bg-center backdrop-blur">
