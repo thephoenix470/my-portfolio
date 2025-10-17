@@ -17,7 +17,19 @@ export default function SEO({ title, description }: SEOProps) {
       <meta name="description" content={description || defaultDescription} />
       <meta name="google-site-verification" content="nxNvIKSePTV_8ra7Imap4_rD_xPJA7Wl0-jbdMLWmG8" />
       <link rel="canonical" href={baseUrl} />
-      <link rel="icon" href= {favicon}/>
+      <link rel="icon" href={favicon} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": siteName,
+            "url": baseUrl,
+            "logo": `${baseUrl}/logo.png`
+          }),
+        }}
+      />
     </>
   );
 }
