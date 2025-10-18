@@ -90,7 +90,7 @@ export default function Footer() {
           <div className="text-xs dark:text-white">
             © 2025 {" "}
             <Link
-              href="https://www.trevacore.com"
+              href="/"
               className="font-semibold text-blue-900 dark:text-white"
             >
               TrevaCore

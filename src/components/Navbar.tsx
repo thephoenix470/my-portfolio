@@ -62,7 +62,7 @@ export default function Navbar() {
         </button>
 
         {/* Logo */}
-        <Link href="https://www.trevacore.com" className="mx-auto md:mx-0">
+        <Link href="/" className="mx-auto md:mx-0">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-xl md:text-2xl transition-colors">
             TrevaCore
           </span>
