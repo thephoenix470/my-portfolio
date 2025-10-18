@@ -13,7 +13,7 @@ export default function HomePage() {
         {/* ===========================
           HERO SECTION
       ============================ */}
-        <section className="relative bg-blue-900 dark:bg-blue-950 text-white py-12 sm:py-16 md:py-20 bg-cover bg-center backdrop-blur"
+        <section className="relative text-white py-12 sm:py-16 md:py-20 bg-cover bg-center backdrop-blur"
           style={{ backgroundImage: "url('/images/bg-hero-nature.jpg')" }}
         >
           <div className="absolute inset-0 bg-opacity-10 backdrop-blur-xs"></div>
