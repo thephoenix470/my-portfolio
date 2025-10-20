@@ -81,7 +81,7 @@ export default function AboutPage() {
                   {FounderParagraph.paragraph.at(0)}
                   {FounderParagraph.paragraph.at(1)}
                 </p>
-                <p>
+                <p className="italic">
                   {FounderParagraph.paragraph.at(2)}
                 </p>
               </div>
