@@ -43,7 +43,6 @@ export default function Navbar() {
   }, [isOpen]);
 
   const navLinks = [
-    { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact Us" },
@@ -64,13 +63,13 @@ export default function Navbar() {
         </button>
 
         {/* Logo */}
-        <Link href="/" className="mx-auto md:mx-0">
+        <a href="/" className="mx-auto md:mx-0">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-xl md:text-2xl transition-colors">
             TrevaCore
             {/* <Image src='/images/trevacore-logo-light.png' alt="trevacore logo" width={140} height={40} className="dark:hidden"/>
             <Image src='/images/trevacore-logo-dark.png' alt="trevacore logo" width={140} height={40} className="hidden dark:block"/> */}
           </span>
-        </Link>
+        </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-x-8 items-center">
