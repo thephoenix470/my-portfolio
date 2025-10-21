@@ -5,6 +5,9 @@ import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { ServicesParagraph } from "./Paragraphs";
 
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <footer className="bg-white dark:bg-gray-900 shadow-[0_-4px_10px_rgba(0,0,0,0.1)] sticky">
       <div className="max-w-7xl mx-auto py-6 px-3">
@@ -90,7 +93,7 @@ export default function Footer() {
           <div className="text-xs dark:text-white">
             © 2025 {" "}
             <Link
-              href="/"
+              href="/" onClick={scrollToTop}
               className="font-semibold text-blue-900 dark:text-white"
             >
               TrevaCore
@@ -99,7 +102,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex space-x-3">
+          <div className="flex space-x-4 justify-center sm:justify-end">
             {/* LinkedIn */}
             <Link
               href="https://www.linkedin.com/in/khalil-azhari-66227945"

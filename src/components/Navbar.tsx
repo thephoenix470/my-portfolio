@@ -42,6 +42,10 @@ export default function Navbar() {
     };
   }, [isOpen]);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const navLinks = [
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Services" },
@@ -63,13 +67,13 @@ export default function Navbar() {
         </button>
 
         {/* Logo */}
-        <a href="/" className="mx-auto md:mx-0">
+        <Link href="/" onClick={scrollToTop} className="mx-auto md:mx-0">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-xl md:text-2xl transition-colors">
             TrevaCore
             {/* <Image src='/images/trevacore-logo-light.png' alt="trevacore logo" width={140} height={40} className="dark:hidden"/>
             <Image src='/images/trevacore-logo-dark.png' alt="trevacore logo" width={140} height={40} className="hidden dark:block"/> */}
           </span>
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-x-8 items-center">
@@ -100,8 +104,8 @@ export default function Navbar() {
                 {/* Label */}
                 <span
                   className={`text-blue-900 dark:text-gray-200 transition-colors duration-300 ${isActive
-                      ? "text-blue-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400"
-                      : "group-hover:text-red-600 dark:group-hover:text-red-400"
+                    ? "text-blue-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400"
+                    : "group-hover:text-red-600 dark:group-hover:text-red-400"
                     }`}
                 >
                   {link.label}
