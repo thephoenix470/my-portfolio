@@ -12,11 +12,11 @@ html[data-theme='dark'] .your-class {
   color: orange
 }
 
-/* .nav-text-color {
-  color: #04246a;
-  font-weight: bold;
+/* globals.css or Tailwind config */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
-.nav-text-color:hover {
-  color:#e20101;
-  
-} */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
