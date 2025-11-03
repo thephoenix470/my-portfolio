@@ -27,7 +27,7 @@ export default function SEO({ title, description }: SEOProps) {
       <meta property="og:type" content="website" />
       <meta property="og:url" content={baseUrl} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:image" content={favicon} />
+      <meta property="og:image" content={`${siteName} / ${favicon}`} />
 
       <script
         type="application/ld+json"
