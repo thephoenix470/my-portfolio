@@ -18,7 +18,7 @@ export default function SEO({ title, description }: SEOProps) {
       <meta name="name" content={siteName} />
       <meta name="description" content={description || defaultDescription} />
       <meta name="google-site-verification" content="nxNvIKSePTV_8ra7Imap4_rD_xPJA7Wl0-jbdMLWmG8" />
-      <link rel="canonical" href={baseUrl}/>
+      <link rel="canonical" href={baseUrl} />
       <link rel="icon" href={favicon} />
 
       {/* Open Graph / Facebook */}
@@ -39,6 +39,18 @@ export default function SEO({ title, description }: SEOProps) {
             "url": baseUrl,
             "logo": `${baseUrl}/logo.png`
           }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "TrevaCore",
+            "alternateName": "TrevaCore Solutions",
+            "url": "https://www.trevacore.com"
+          })
         }}
       />
     </>
