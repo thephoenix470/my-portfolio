@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { FounderParagraph, MissionParagraph, StoryParagraph } from "@/components/Paragraphs";
+import { FounderParagraph, MissionParagraph } from "@/components/Paragraphs";
 import SEO from "@/components/SEO";
 
 export default function AboutPage() {
