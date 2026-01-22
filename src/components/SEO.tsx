@@ -47,9 +47,9 @@ export default function SEO({ title, description }: SEOProps) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "TrevaCore",
-            "alternateName": "TrevaCore Solutions",
-            "url": "https://www.trevacore.com"
+            "name": siteName,
+            "alternateName": siteName,
+            "url": baseUrl
           })
         }}
       />
