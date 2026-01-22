@@ -31,10 +31,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/about#story"
+                  href="/about#founder"
                   className="text-black-900 dark:text-white hover:text-blue-900 hover:dark:text-white"
                 >
-                  Our Story
+                  Our Founder
                 </Link>
               </li>
             </ul>
