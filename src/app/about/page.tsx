@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-6 space-y-16">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative w-full h-[250px] md:h-[350px]">
-              <Image src='/images/hotel-webpage.jpg' alt="hotel webpage" fill className="object-cover rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw" priority />
+              <Image src='/images/innovation-1.png' alt="hotel webpage" fill className="object-cover rounded-2xl shadow-md" sizes="(max-width: 768px) 100vw, 50vw" priority />
             </div>
             <div className="text-left">
               <h2 className="text-2xl md:text-3xl font-bold text-blue-900 dark:text-white">

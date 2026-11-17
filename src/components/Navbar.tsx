@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-//import Image from "next/image";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 
@@ -70,8 +70,8 @@ export default function Navbar() {
         <Link href="/" onClick={scrollToTop} className="mx-auto md:mx-0">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-xl md:text-2xl transition-colors">
             TrevaCore
-            {/* <Image src='/images/trevacore-logo-light.png' alt="trevacore logo" width={140} height={40} className="dark:hidden"/>
-            <Image src='/images/trevacore-logo-dark.png' alt="trevacore logo" width={140} height={40} className="hidden dark:block"/> */}
+            {/* <Image src='/images/trevacore-logo-light.png' alt="trevacore logo" width={100} height={40} className="dark:hidden"/>
+            <Image src='/images/trevacore-logo-dark.png' alt="trevacore logo" width={100} height={40} className="hidden dark:block"/> */}
           </span>
         </Link>
 
@@ -132,7 +132,10 @@ export default function Navbar() {
         <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
           <span className="text-blue-900 dark:text-gray-200 font-bold text-lg">
             TrevaCore
+            {/* <Image src='/images/trevacore-logo-light.png' alt="trevacore logo" width={90} height={40} className="dark:hidden"/>
+            <Image src='/images/trevacore-logo-dark.png' alt="trevacore logo" width={90} height={40} className="hidden dark:block"/> */}
           </span>
+          
           <button
             className="text-blue-900 dark:text-gray-200"
             onClick={() => setIsOpen(false)}

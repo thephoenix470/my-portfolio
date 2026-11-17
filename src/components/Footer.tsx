@@ -91,7 +91,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between mt-8 mx-auto p-2 gap-5">
           {/* Copyright */}
           <div className="text-xs dark:text-white">
-            © 2025 {" "}
+            © 2026 {" "}
             <Link
               href="/" onClick={scrollToTop}
               className="font-semibold text-blue-900 dark:text-white"

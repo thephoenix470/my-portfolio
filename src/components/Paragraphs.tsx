@@ -88,13 +88,13 @@ export const ServicesParagraph = [
         title: "Connected Solutions",
         description:
             "Connect your platforms and tools to ensure smooth data flow and seamless collaboration.",
-        image: "/images/integration.png",
+        image: "/images/globalization.png",
     },
     {
         title: "Application Care",
         description:
             "Enhance speed, security, and reliability to keep your digital solutions performing at their best.",
-        image: "/images/app-maintenance.jpg",
+        image: "/images/configuration.png",
     }
 ]
 
@@ -134,6 +134,10 @@ export const faqs = [
   {
     question: "Why Power Platform tools?",
     answer: "With Power Platform tools, you can find the best suitable, cost-effective, easily maintainable solution that helps you become more efficient.",
+  },
+  {
+    question: "Do you provide Dynamics 365 CRM services?",
+    answer: "Yes, we provide deployment and customizations to all Dynamics 365 CRM tools, including Customer Service, Field Service, Sales Hub and more.",
   },
   {
     question: "Can we request a modification on our existing website?",
